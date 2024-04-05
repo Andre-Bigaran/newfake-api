@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notice_parts",
+  "info": {
+    "singularName": "notice-part",
+    "pluralName": "notice-parts",
+    "displayName": "Notice Part"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "response": {
+      "type": "text"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "notice": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::notice.notice"
+    }
+  }
+}

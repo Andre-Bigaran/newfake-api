@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matters",
+  "info": {
+    "singularName": "matter",
+    "pluralName": "matters",
+    "displayName": "Matter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}
